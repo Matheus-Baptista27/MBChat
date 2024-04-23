@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main>
+        <h1>MBChat</h1>
+        <div id="entrada">
+            <input type="text" id="input-nick" placeholder="Nick" />
+            <button id="entrar">Entrar chat</button>
+        </div>
+        <div id="status-entrada" style="display:none;">
+            <p>Entrou no chat como: <span id="nick-usuario"></span></p>
+        </div>
+        <div id="lista-salas" style="display:none;">
+            <h2>Salas</h2>
+        </div>
+        <div id="mensagens-sala" style="display:none;">
+            <h2>Mensagens</h2>
+        </div>
+        <div id="cria-sala" style="display:none;">
+            <button id="sairSala">Sair da Sala</button>
+            <button id="excluirSala">Excluir Sala</button>
+            <button id="sairChat">Sair do Chat</button>
+            <button id="criarSala">Criar Sala</button>
+        </div>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>
